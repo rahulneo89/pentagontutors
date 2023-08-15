@@ -132,7 +132,7 @@ transition: all 250ms ease-in-out 0s;
     
   </head>
   <body>
-
+  <!-- navbar old
   <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top shadow">
   <div class="container">
     <a class="navbar-brand" href="#">Pentagon<span class="text-warning">Tutors</span></a>
@@ -157,6 +157,43 @@ transition: all 250ms ease-in-out 0s;
     </div>
   </div>
 </nav>
+-->
+<!-- Offcanvas navbar -->
+<nav class="navbar navbar-expand-lg fixed-top shadow-lg">
+  <div class="container">
+    <!-- Logo -->
+    <a class="navbar-brand" href="#"><span class="text-white">Pentagon</span><span class="text-warning">Tutors</span></a>
+    <button class="navbar-toggler shadow-none border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <!-- Sidebar -->
+    <div class="sidebar offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+      <div class="offcanvas-header text-white border-bottom">
+        <h5 class="offcanvas-title" id="offcanvasNavbarLabel"><span class="text-white">Pentagon</span><span class="text-warning">Tutors</span></h5>
+        <button type="button" class="btn-close btn-close-white shadow-none" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+
+      <!-- Sidebar body-->
+      <div class="offcanvas-body">
+        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+          <li class="nav-item mx-2">
+            <a class="nav-link active text-white" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item mx-2">
+            <a class="nav-link text-white" href="#">About</a>
+          </li>
+          <li class="nav-item mx-2">
+            <a href="#" class="nav-link text-white">Courses</a>
+          </li>
+          <li class="nav-item mx-2">
+            <a href="#" class="nav-link text-white">Contact Us</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav>
+<!-- Offcanvas navbar end -->
 
   <!-- Hero section test start -->
   <div id="hero" class = "container-fluid d-flex text-center text-white img-fluid justify-content-center align-text-center py-5">
